@@ -1,0 +1,58 @@
+/* This is the Universal selector. Which targets every single HTML element */
+* {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+/* Type selectors (Element selectors) target specified elements */
+div {
+    border: 2px black solid;
+    margin: 0 auto;
+    max-width: 500px;
+}
+
+h2 {
+    text-align: center;
+    color: coral;
+    background-color: steelblue;
+}
+
+/* Class selectors target ALL elements with the specified class */
+.targeted-class {
+    text-align: center;
+    color: white;
+    background-color: midnightblue;
+}
+
+/* ID selectors target the element with the specified ID */
+#lucky-number-seven {
+    font-size: 2em;
+    background-color: lightgreen;
+    color: maroon;
+}
+
+/* Grouping selectors is a great way to reduce repeat code and to edit larger groups of elements at once*/
+.group-1,
+.group-2 {
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+.group-1 {
+    border: 5px solid red;
+}
+
+.group-2 {
+    border: 5px solid blue;
+}
+
+/* Chaining selectors target specific elements with multiple classes that may share one of those classes with one or more other elements */
+.subsection.header {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.subsection#preview {
+    font-size: 10px;
+}
