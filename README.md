@@ -6,3 +6,8 @@ Resource: https://www.theodinproject.com/lessons/foundations-intro-to-css
 
 - Practiced using different types of CSS Selectors to target specific levels of HTML elements
 - Learned that using style="margin: 0 auto;" is a quick way to center divs
+
+### 06/26/25
+Resource: https://www.theodinproject.com/lessons/foundations-the-cascade
+
+- 
